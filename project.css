@@ -1,0 +1,113 @@
+* {
+     padding: 0%;
+     margin: 0%;
+}
+
+/* Css reset */
+body {
+     background: url('img/gym.jpg');
+     background-size: cover;
+}
+
+.leftMenu {
+     display: inline-block;
+     position: absolute;
+     top: 20px;
+     left: 11px;
+     color: aqua;
+}
+
+.midMenu {
+     display: block;
+     margin: 30px auto;
+     width: 540px;
+     background-color: black;
+     border-radius: 10px;
+}
+
+.nav {
+     display: inline-block;
+}
+
+.nav li {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     display: inline-block;
+     font-size: 20px;
+     background-color: black;
+}
+
+.nav li a {
+     color: yellow;
+     padding: 10px;
+     text-decoration: none;
+}
+
+.nav li a:hover,
+.nav li a:active {
+     color: #70e6ec;
+     padding: 10px;
+     text-decoration: underline;
+}
+
+.rightMenu {
+     display: block;
+     position: absolute;
+     top: 12px;
+     right: 16px;
+     border-radius: 10px;
+}
+
+.leftMenu img {
+     width: 40px;
+     /* this is use for make img black to white */
+     filter: invert(100%);
+     text-align: center;
+
+}
+
+.box {
+     color: yellow;
+     background-color: black;
+     margin: 18px 1px;
+     padding: 3px 3px;
+     cursor: pointer;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 15px;
+}
+
+.box:hover {
+     color: rgba(15, 234, 55, 0.855);
+     text-decoration: underline;
+}
+
+.container {
+     border: 2px solid white;
+     margin: 165px 5px;
+     padding: 12px 25px;
+     color: #70e6ec;
+     width: 500px;
+     text-align: center;
+     border-radius: 30px;
+}
+
+.form-group input {
+     font-size: 20px;
+     padding: 2px 60px;
+     margin: 2px auto;
+     display: block;
+     text-align: center;
+     border: 2px solid black;
+     border-radius: 15px;
+}
+
+.btn {
+     border: 2px solid black;
+     font-size: 20px;
+     cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+     background-color: aqua;
+     text-decoration: underline;
+}
